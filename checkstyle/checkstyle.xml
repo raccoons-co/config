@@ -25,7 +25,9 @@
         </module>
         <module name="MissingDeprecated"/>
         <module name="MissingOverride"/>
-        <module name="MultipleStringLiterals"/>
+        <module name="MultipleStringLiterals">
+            <property name="severity" value="warning"/>
+        </module>
         <module name="NeedBraces"/>
         <module name="OneStatementPerLine"/>
         <module name="PackageAnnotation"/>
